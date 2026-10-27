@@ -1,0 +1,18 @@
+{
+  "description": "Fictional Retell state. Harbor Glow has two deliberate drift fields.",
+  "agents": [
+    {
+      "location_id": "northwind-dental-riverside",
+      "inherit_desired": true,
+      "overrides": {}
+    },
+    {
+      "location_id": "harbor-glow-medical-spa",
+      "inherit_desired": true,
+      "overrides": {
+        "agent.voice_id": "demo-voice-wrong",
+        "llm.begin_message": "Thanks for calling. What do you need?"
+      }
+    }
+  ]
+}

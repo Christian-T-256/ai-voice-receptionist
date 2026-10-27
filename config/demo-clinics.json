@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "retell": {
+    "model": "gpt-4o-mini"
+  },
+  "locations": [
+    {
+      "id": "northwind-dental-riverside",
+      "practice_name": "Northwind Dental Studio",
+      "practice_type": "dental",
+      "city": "Riverside",
+      "state": "NY",
+      "timezone": "America/New_York",
+      "agent_name": "Avery",
+      "voice_id": "11labs-Adrian",
+      "hours": {
+        "monday": [["08:00", "17:00"]],
+        "tuesday": [["08:00", "17:00"]],
+        "wednesday": [["10:00", "19:00"]],
+        "thursday": [["08:00", "17:00"]],
+        "friday": [["08:00", "14:00"]],
+        "saturday": [],
+        "sunday": []
+      },
+      "services": [
+        "new patient exam",
+        "routine cleaning",
+        "toothache evaluation",
+        "cosmetic consultation"
+      ],
+      "booking": {
+        "mode": "request_only",
+        "duration_minutes": 50,
+        "buffer_minutes": 10,
+        "minimum_notice_hours": 4,
+        "offer_count": 2
+      },
+      "insurance_note": "The clinic accepts many PPO plans. Staff must verify the caller's specific benefits before the visit.",
+      "retell": {
+        "agent_id_env": "RETELL_AGENT_ID_NORTHWIND",
+        "llm_id_env": "RETELL_LLM_ID_NORTHWIND"
+      }
+    },
+    {
+      "id": "harbor-glow-medical-spa",
+      "practice_name": "Harbor Glow Medical Spa",
+      "practice_type": "med_spa",
+      "city": "Fairview",
+      "state": "NY",
+      "timezone": "America/New_York",
+      "agent_name": "Maya",
+      "voice_id": "11labs-Dorothy",
+      "hours": {
+        "monday": [],
+        "tuesday": [["10:00", "18:00"]],
+        "wednesday": [["10:00", "18:00"]],
+        "thursday": [["12:00", "20:00"]],
+        "friday": [["10:00", "18:00"]],
+        "saturday": [["09:00", "15:00"]],
+        "sunday": []
+      },
+      "services": [
+        "first visit consultation",
+        "skin care consultation",
+        "facial treatment",
+        "laser hair reduction consultation"
+      ],
+      "booking": {
+        "mode": "request_only",
+        "duration_minutes": 40,
+        "buffer_minutes": 15,
+        "minimum_notice_hours": 12,
+        "offer_count": 2
+      },
+      "insurance_note": "Services are self-pay. Staff can answer payment questions and confirm any accepted payment methods.",
+      "retell": {
+        "agent_id_env": "RETELL_AGENT_ID_HARBOR_GLOW",
+        "llm_id_env": "RETELL_LLM_ID_HARBOR_GLOW"
+      }
+    }
+  ]
+}

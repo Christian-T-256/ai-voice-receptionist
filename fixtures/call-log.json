@@ -1,0 +1,71 @@
+{
+  "description": "Fictional call records for the generated static dashboard.",
+  "calls": [
+    {
+      "location_id": "northwind-dental-riverside",
+      "started_at": "2026-10-21 09:14",
+      "caller_name": "Jamie Rivera",
+      "reason": "Routine cleaning",
+      "outcome": "Appointment requested",
+      "duration_seconds": 184,
+      "lead_captured": true,
+      "appointment_requested": true,
+      "after_hours": false
+    },
+    {
+      "location_id": "northwind-dental-riverside",
+      "started_at": "2026-10-21 18:42",
+      "caller_name": "Morgan Lee",
+      "reason": "Toothache callback",
+      "outcome": "Urgent callback queued",
+      "duration_seconds": 96,
+      "lead_captured": true,
+      "appointment_requested": false,
+      "after_hours": true
+    },
+    {
+      "location_id": "northwind-dental-riverside",
+      "started_at": "2026-10-22 11:03",
+      "caller_name": "Taylor Kim",
+      "reason": "Insurance question",
+      "outcome": "Staff follow-up queued",
+      "duration_seconds": 71,
+      "lead_captured": true,
+      "appointment_requested": false,
+      "after_hours": false
+    },
+    {
+      "location_id": "harbor-glow-medical-spa",
+      "started_at": "2026-10-22 13:26",
+      "caller_name": "Casey Morgan",
+      "reason": "First visit consultation",
+      "outcome": "Appointment requested",
+      "duration_seconds": 211,
+      "lead_captured": true,
+      "appointment_requested": true,
+      "after_hours": false
+    },
+    {
+      "location_id": "harbor-glow-medical-spa",
+      "started_at": "2026-10-22 20:18",
+      "caller_name": "Riley Chen",
+      "reason": "Facial treatment question",
+      "outcome": "Next-day callback queued",
+      "duration_seconds": 128,
+      "lead_captured": true,
+      "appointment_requested": false,
+      "after_hours": true
+    },
+    {
+      "location_id": "harbor-glow-medical-spa",
+      "started_at": "2026-10-23 14:50",
+      "caller_name": "Jordan Ellis",
+      "reason": "Laser consultation",
+      "outcome": "Appointment requested",
+      "duration_seconds": 167,
+      "lead_captured": true,
+      "appointment_requested": true,
+      "after_hours": false
+    }
+  ]
+}
